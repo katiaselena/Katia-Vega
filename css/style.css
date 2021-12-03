@@ -1,0 +1,256 @@
+@font-face {
+  font-family:"sf-pro-rounded-bold";
+  src: url("../fonts/SF-Pro-Rounded-Bold.otf");
+}
+@font-face {
+  font-family:"sf-pro-rounded-medium";
+  src: url("../fonts/SF-Pro-Rounded-Medium.otf");
+}
+
+@font-face {
+  font-family:"sf-pro-rounded-light";
+  src: url("../fonts/SF-Pro-Rounded-Light.otf");
+}
+
+@font-face {
+  font-family:"dancing-script";
+  src: url("../fonts/DancingScript-VariableFont_wght.ttf");
+}
+
+header{
+  display: flex;
+  width: 90%;
+  max-width: 1169px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  position:relative
+}
+
+nav{
+  display: flex;
+  font-family: "sf-pro-rounded-bold";
+}
+nav a{
+  margin-right: 96px;
+  font-size: 24px;
+  color: black;
+}
+nav a:last-child{
+  margin-right: 0;
+}
+
+h5 {
+  font-family:"dancing-script";
+  font-size: 36px;
+  margin-left: 83px;
+}
+
+.description{
+  background-image: url(../images/11.jpg);
+  background-size: cover;
+  padding-top: 50px;
+}
+.section-description{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.aboutme{
+  width: 400px;
+  margin-top: 65px;
+  margin-right: 100x;
+  margin-bottom: 50px;
+  background-color: white;
+  padding: 66px;
+}
+
+.aboutme img{
+  width: 231px;
+}
+
+.icon-rrss a{
+  display: inline-flex;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  padding: 16px;
+  border-radius: 50px;
+}
+
+.icon-rrss img{
+  width: 25px;
+}
+
+.icon-rrss {
+  margin-top: 32px;
+  display: flex;
+  gap: 16px;
+}
+
+.home {
+  display: flex;
+  column-gap: 96px;
+}
+
+.container {
+  flex-direction: row;
+  flex: flex;
+  flex-wrap: wrap;
+}
+
+.square {
+  align-items: flex-start;
+}
+
+.presentation {
+  align-items: flex-end;
+}
+
+.description h2 {
+  font-size: 72px;
+  font-family: "sf-pro-rounded-bold";
+}
+
+.description p {
+  font-size: 48px;
+  font-family: "sf-pro-rounded-medium";
+  margin-top: 32px;
+}
+
+.aboutme h2 {
+  font-size: 36px;
+  font-family: "sf-pro-rounded-medium";
+}
+
+.aboutme p {
+  font-size: 24px;
+  font-family: "sf-pro-rounded-light"; 
+}
+
+.center {
+  margin: 64px 0;
+  text-align: center;
+}
+
+.center img {
+  width: 425px;
+}
+
+.allhiking {
+  background-image: url("../images/watercolor-paper-texture.jpg");
+  background-size: cover;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.hiking {
+  display: flex;
+  width: 1118px;
+  margin: 0 auto;
+  margin-bottom: 235px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hikingapp h2 {
+  font-family:"sf-pro-rounded-bold";
+  font-size: 72px;
+}
+
+
+.hikingapp p {
+  font-family: "sf-pro-rounded-medium";
+  font-size: 48px;
+  margin-top: 24px;
+}
+
+.hikingapp button{  
+  background-color: black;
+  padding: 16px 24px;
+  border-radius: 50px;
+  margin-top: 24px;
+  color: white;
+  font-family: "sf-pro-rounded-medium";
+  cursor: pointer;
+  border: none;
+}
+
+button:hover{
+box-shadow: 5px 0 5px white;
+animation: colorSimon 10s infinite;
+}
+
+.outletmoto {
+  display: flex;
+  width: 1118px;
+  margin: 0 auto;
+  margin-bottom: 235px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.outletmotoweb h2 {
+  font-family:"sf-pro-rounded-bold";
+  font-size: 72px;
+}
+
+.outletmotoweb p {
+  font-family: "sf-pro-rounded-medium";
+  font-size: 48px;
+  margin-top: 24px;
+}
+
+.outletmoto button{  
+    background-color: black;
+    padding: 16px 24px;
+    border-radius: 50px;
+    margin-top: 24px;
+    color: white;
+    font-family: "sf-pro-rounded-medium";
+    cursor: pointer;
+    border: none;
+}
+
+button:hover{
+  box-shadow: 5px 0 5px white;
+  animation: colorSimon 10s infinite;
+}
+
+.mobile-main {
+  display: none;
+}
+
+@media (max-width: 414px) {
+  .desktop-main {
+    display: none;
+  }
+
+  .mobile-main {
+    display: flex;
+    font-family: "sf-pro-rounded-medium";
+    align-c: center;
+    height: 100vh;
+    justify-content: center;
+    color:black;
+    font-size: 18px;
+    margin: 0 auto;
+    padding: 60px;
+    background-image: url("../images/peach-acrylic-painting-background-vector.jpg");
+    text-align: center;
+    flex-direction:column;
+  }
+
+  .mobile-main img {
+    text-align: center;
+    width: 250px;
+    margin-top: 16px;
+  }
+
+  .mobile-main h4 {
+    font-size: 24px;
+    margin-top: 16px;
+  }
